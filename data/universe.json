@@ -40,8 +40,8 @@
     },
     "ai-system": {
       "id": "ai-system",
-      "name": "AI 实践恒星系 · 人机共创",
-      "navLabel": "AI 实践",
+      "name": "人机共创星系 · 灵感引擎",
+      "navLabel": "人机共创",
       "color": "#e09858",
       "accentGradient": "linear-gradient(135deg, #e09858 0%, #7bafd4 100%)",
       "cameraPos": [
