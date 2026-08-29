@@ -1,0 +1,663 @@
+{
+  "domains": {
+    "her-planet": {
+      "id": "her-planet",
+      "name": "她的星球 · 中心枢纽",
+      "navLabel": "她的星球",
+      "color": "#7bafd4",
+      "accentGradient": "linear-gradient(135deg, #7bafd4 0%, #c9a0ff 100%)",
+      "cameraPos": [
+        0,
+        8,
+        32
+      ],
+      "cameraTarget": [
+        0,
+        0,
+        0
+      ],
+      "bgText": "CREW RECORD // LIU LUOYING",
+      "description": "高清拟真母星 · 所有星际探索的能量与出发点"
+    },
+    "experiences": {
+      "id": "experiences",
+      "name": "经历航线 · 绕日公转",
+      "navLabel": "经历航线",
+      "color": "#c8b688",
+      "accentGradient": "linear-gradient(135deg, #c8b688 0%, #7bafd4 100%)",
+      "cameraPos": [
+        0,
+        36,
+        68
+      ],
+      "cameraTarget": [
+        0,
+        0,
+        0
+      ],
+      "bgText": "EVERY JOURNEY BEGINS HERE",
+      "description": "五段实习经历行星围绕母星公转 · 点击任意行星查看全息档案"
+    },
+    "ai-system": {
+      "id": "ai-system",
+      "name": "AI 实践恒星系 · 人机共创",
+      "navLabel": "AI 实践",
+      "color": "#e09858",
+      "accentGradient": "linear-gradient(135deg, #e09858 0%, #7bafd4 100%)",
+      "cameraPos": [
+        -120,
+        -10,
+        -50
+      ],
+      "cameraTarget": [
+        -120,
+        -20,
+        -90
+      ],
+      "bgText": "HUMAN-AI SYMBIOSIS",
+      "description": "热核恒星与全息装置 · 真实落地的高并发与创意全栈工程"
+    },
+    "manual-station": {
+      "id": "manual-station",
+      "name": "乘员手册空间站 · 使用说明",
+      "navLabel": "乘员手册",
+      "color": "#ffd76e",
+      "accentGradient": "linear-gradient(135deg, #ffd76e 0%, #ff8c5a 100%)",
+      "cameraPos": [
+        0,
+        80,
+        -110
+      ],
+      "cameraTarget": [
+        0,
+        70,
+        -150
+      ],
+      "bgText": "USER MANUAL // MK-2026",
+      "description": "六维能力雷达 · 24h能量示波器与舱内通讯录"
+    }
+  },
+  "entities": [
+    {
+      "id": "planet-luoying",
+      "domain": "her-planet",
+      "name": "履历中枢 · 刘洛颖",
+      "subtitle": "刘洛颖 · INFJ · ♒ 水瓶座",
+      "tagline": "中传汉语言 27 届 · AI-Native 创意构建者",
+      "color": "#7bafd4",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "radius": 7,
+      "type": "hub",
+      "meta": {
+        "period": "2023.09 - 2027.07",
+        "role": "本科在读 / 文化与人才发展实习生",
+        "company": "中国传媒大学 & 书行科技",
+        "tech": [
+          "Three.js",
+          "Vue 3",
+          "FastAPI",
+          "Claude Code",
+          "Agent Skills"
+        ],
+        "impact": "GPA 3.82/4 · 六级 520 · 独立构建多款生产级 Web 3D & AI 应用",
+        "quote": "用技术的理性架构，承载人文与艺术的温度。",
+        "overview": "中国传媒大学汉语言专业在读，具备扎实的文字功底、美学敏锐度与 AI 原生工程交付能力。在小红书文化与人才发展组深度实践 AI 协同工作流，独立主导并交付 300 人级现场高并发投票系统、3D 地球足迹等核心项目。",
+        "highlights": [
+          "综合 GPA: 3.82/4，连续获得校级三好学生、奖学金",
+          "英语六级 520 分，具备流畅的跨文化交流与海外文旅路线设计能力",
+          "极高审美自驱：深色系空间美学、三维交互与微交互细节控",
+          "能量燃料：运动、Kpop、跳舞、旅行、健身、咖啡、探索未知"
+        ],
+        "skills": [
+          {
+            "name": "AI 原生开发",
+            "level": "精通"
+          },
+          {
+            "name": "全栈原型交付",
+            "level": "熟练"
+          },
+          {
+            "name": "大型活动运营",
+            "level": "精通"
+          },
+          {
+            "name": "文案与课程设计",
+            "level": "精通"
+          },
+          {
+            "name": "美学与三维交互",
+            "level": "熟练"
+          }
+        ]
+      }
+    },
+    {
+      "id": "exp-xhs",
+      "domain": "experiences",
+      "name": "小红书 · RED Orbit",
+      "subtitle": "文化与人才发展实习生",
+      "tagline": "Delta Program 核心运营 · 自研三端投票系统",
+      "color": "#a64d5c",
+      "position": [
+        18,
+        0,
+        0
+      ],
+      "radius": 2.6,
+      "orbitRadius": 18,
+      "orbitSpeed": 0.28,
+      "type": "planet",
+      "meta": {
+        "period": "2026.07 - 至今",
+        "role": "文化与人才发展实习生",
+        "company": "行吟信息科技（上海）有限公司 / 书行科技",
+        "image": "exp/xhs.png",
+        "tech": [
+          "Vue 3",
+          "FastAPI",
+          "PostgreSQL",
+          "Three.js",
+          "AI Workflow"
+        ],
+        "impact": "300 人并发票选 P95 407ms 零故障；482 人学员库秒级匹配；2 批次科技新秀奖零漏发",
+        "quote": "深入业务一线，以 AI Native 的方式重塑运营与技术边界。",
+        "overview": "在小红书文化与人才发展组承担技术校招营期全流程运营与内部生产力工具开发，深度融合大模型与业务流。",
+        "highlights": [
+          "校招开营营期（480+ 人规模）全流程运营：独立 own 运营文案、开营问卷（沪京两地 10 份）、嘉宾礼物（26 人、¥300/人）、结营晚间活动及周边选品（¥20,000 预算）全链路",
+          "设计「24 人选 5 强」现场票选机制，独立开发三端实时投票系统（手机投票 / 大屏实时排名 / 管理后台），P95 延迟 1095ms 优化至 407ms（2.7×），活动日 300 人并发零故障",
+          "搭建 482 人学员信息库，实现候选人导入秒级自动匹配",
+          "科技新秀奖月度批次全流程引入 AI Agent 自动化工作流，两批次零漏发",
+          "AI 结对开发上线 2 个内部应用（World Footprint 3D 足迹地球、太空主题互动页）；「游学中国」内容生产流程沉淀为可复用 AI skill"
+        ],
+        "skills": [
+          {
+            "name": "大型活动策划",
+            "level": "精通"
+          },
+          {
+            "name": "FastAPI 后端",
+            "level": "熟练"
+          },
+          {
+            "name": "高并发优化",
+            "level": "突破"
+          },
+          {
+            "name": "全链路文案",
+            "level": "精通"
+          }
+        ]
+      }
+    },
+    {
+      "id": "exp-universal",
+      "domain": "experiences",
+      "name": "北京环球度假区 · Universal Planet",
+      "subtitle": "HRBP 实习生",
+      "tagline": "国际文旅顶流 · 组织赋能与员工体验",
+      "color": "#c29b68",
+      "position": [
+        26,
+        0,
+        0
+      ],
+      "radius": 3.2,
+      "orbitRadius": 26,
+      "orbitSpeed": 0.22,
+      "type": "planet",
+      "meta": {
+        "period": "2025.10 - 2026.02",
+        "role": "HRBP 实习生",
+        "company": "北京环球度假区 (Universal Beijing Resort)",
+        "image": "exp/universal.jpg",
+        "tech": [
+          "HRBP",
+          "组织文化",
+          "员工体验",
+          "流程标准化"
+        ],
+        "impact": "赋能数百人大型主题园区业务部门，优化一线团队融入与激励体验",
+        "quote": "在造梦的游乐园里，做幕后最扎实的组织基石。",
+        "overview": "深入北京环球度假区一线业务板块，协助 HRBP 开展组织发展、员工关系沟通、文化活动落地与标准化指引建设。",
+        "highlights": [
+          "深度参与一线运营部门的员工全生命周期管理与关怀机制搭建",
+          "协助推动跨文化团队融入方案，设计标准化新人 onboarding 流程",
+          "策划园区内部高满意度员工激励与文化连接活动"
+        ],
+        "skills": [
+          {
+            "name": "组织文化建设",
+            "level": "熟练"
+          },
+          {
+            "name": "员工关系沟通",
+            "level": "熟练"
+          },
+          {
+            "name": "跨部门协作",
+            "level": "熟练"
+          }
+        ]
+      }
+    },
+    {
+      "id": "exp-dedao",
+      "domain": "experiences",
+      "name": "少年得到 · Dedao Learning",
+      "subtitle": "人才与组织发展实习生",
+      "tagline": "知识付费领跑者 · 培训赋能与体系化沉淀",
+      "color": "#52796f",
+      "position": [
+        34,
+        0,
+        0
+      ],
+      "radius": 2.5,
+      "orbitRadius": 34,
+      "orbitSpeed": 0.17,
+      "type": "planet",
+      "meta": {
+        "period": "2025.04 - 2025.09",
+        "role": "人才与组织发展实习生",
+        "company": "少年得到 (igetcool.com)",
+        "image": "exp/dedao.png",
+        "tech": [
+          "培训体系",
+          "知识提炼",
+          "数据复盘",
+          "Prompt Engineering"
+        ],
+        "impact": "独立负责多期培训物料与课后测验生成，打造结构化学习闭环",
+        "quote": "把复杂的知识结构化，让成长的路径清晰可见。",
+        "overview": "在少年得到团队参与内部培训体系运营、课程物料制作与知识沉淀，早期探索将 AI 引入培训数据复盘与测验生成。",
+        "highlights": [
+          "主导制作数十期培训一页纸视觉稿文案与课后知识点精炼",
+          "利用 AI 辅助提炼培训材料核心逻辑，自动化生成评估测验题与解析",
+          "持续跟踪学员通关数据，输出多维复盘看板"
+        ],
+        "skills": [
+          {
+            "name": "知识结构化提炼",
+            "level": "精通"
+          },
+          {
+            "name": "培训项目管理",
+            "level": "熟练"
+          },
+          {
+            "name": "数据复盘",
+            "level": "熟练"
+          }
+        ]
+      }
+    },
+    {
+      "id": "exp-ifeng",
+      "domain": "experiences",
+      "name": "凤凰网 · Ifeng Media",
+      "subtitle": "商业内容运营实习生",
+      "tagline": "主流深度媒体 · 《君品谈》高端栏目运营",
+      "color": "#9e5344",
+      "position": [
+        42,
+        0,
+        0
+      ],
+      "radius": 2.9,
+      "orbitRadius": 42,
+      "orbitSpeed": 0.13,
+      "type": "planet",
+      "meta": {
+        "period": "2024.11 - 2025.03",
+        "role": "商业内容运营实习生",
+        "company": "凤凰网 (ifeng.com)",
+        "image": "exp/ifeng.png",
+        "tech": [
+          "高端访谈",
+          "内容策划",
+          "全网传播",
+          "商业化变现"
+        ],
+        "impact": "深度参与核心 IP 商业化传播，内容累计曝光达数千万量级",
+        "quote": "深度对话时代人物，在文字中捕捉商业与人文的交响。",
+        "overview": "参与凤凰网核心原创商业访谈节目《君品谈》的内容运营与传播矩阵搭建，对接高端嘉宾与主流品牌商业化落地。",
+        "highlights": [
+          "参与多期行业领袖与文化名家访谈选题策划、文稿润色与亮点提炼",
+          "负责多平台分发矩阵的短视频与图文包装，实现千万级全网传播破圈",
+          "协助推进品牌商业合作定制化权益落地"
+        ],
+        "skills": [
+          {
+            "name": "深度选题策划",
+            "level": "精通"
+          },
+          {
+            "name": "多渠道矩阵传播",
+            "level": "熟练"
+          },
+          {
+            "name": "商业化内容运营",
+            "level": "熟练"
+          }
+        ]
+      }
+    },
+    {
+      "id": "exp-onion",
+      "domain": "experiences",
+      "name": "洋葱学园 · Onion Academy",
+      "subtitle": "达人与社群运营实习生",
+      "tagline": "K12 智能教育 · 创作者生态与社群裂变",
+      "color": "#b5965b",
+      "position": [
+        50,
+        0,
+        0
+      ],
+      "radius": 3,
+      "orbitRadius": 50,
+      "orbitSpeed": 0.1,
+      "type": "planet",
+      "meta": {
+        "period": "2024.06 - 2024.10",
+        "role": "达人与社群运营实习生",
+        "company": "洋葱学园 (yangcongxueyuan.com)",
+        "image": "exp/onion.svg",
+        "tech": [
+          "达人运营",
+          "社群增长",
+          "活动裂变",
+          "内容审核"
+        ],
+        "impact": "统筹数十位头部教育达人联动，打造高粘性用户互动活动",
+        "quote": "用有趣和温度连接年轻人，点燃对学习的好奇心。",
+        "overview": "负责教育达人拓展、创作者激励活动策划与核心社群精细化运营，积累了丰富的一线用户连接与互动设计经验。",
+        "highlights": [
+          "拓展并维护数十位优质教育自媒体达人，推进内容共创合作",
+          "设计并落地多期社群裂变打卡活动，显著提升用户活跃与留存率",
+          "沉淀创作者管理 SOP，提升达人对接流转效率"
+        ],
+        "skills": [
+          {
+            "name": "达人拓展与维护",
+            "level": "熟练"
+          },
+          {
+            "name": "社群裂变增长",
+            "level": "熟练"
+          },
+          {
+            "name": "SOP 流程化沉淀",
+            "level": "熟练"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ai-livevote",
+      "domain": "ai-system",
+      "name": "Delta Space · 现场投票系统",
+      "subtitle": "300 人现场 24 选 5 强高并发实战",
+      "tagline": "React + FastAPI + PostgreSQL 三端闭环",
+      "color": "#ffd76e",
+      "position": [
+        -112,
+        -18,
+        -80
+      ],
+      "radius": 2.8,
+      "type": "ai-device",
+      "meta": {
+        "period": "2026.08",
+        "role": "全栈开发 & 系统设计",
+        "company": "小红书 Delta Program 营期",
+        "tech": [
+          "React",
+          "FastAPI",
+          "PostgreSQL",
+          "Docker",
+          "AI Pair Programming"
+        ],
+        "impact": "P95 延迟 1095ms 降至 407ms（提升 2.7x），活动日 300 人并发零故障",
+        "quote": "用 AI 编写生产级代码，用架构优化承载现场高压并发。",
+        "overview": "为 Delta Program 现场营期定制的实时票选平台，覆盖手机端投票、大屏实时 TOP5 动态排名与管理后台，全面应对现场网络抖动与瞬间并发。",
+        "highlights": [
+          "针对 300 人瞬间并发投票场景，利用连接池优化与请求合并将 P95 延迟由 1095ms 压至 407ms",
+          "搭建 482 人学员信息库，实现候选人导入秒级自动匹配与查重",
+          "跑通 AI 自动化代码生成 + 安全审计全流程，告警全部清零",
+          "内网 Cowork 独立部署上线，活动日稳定运行"
+        ],
+        "shots": [
+          {
+            "src": "shots/vote.jpg",
+            "label": "投票端 · 24 位候选人卡片"
+          },
+          {
+            "src": "shots/board.jpg",
+            "label": "大屏端 · 实时动态 TOP5"
+          }
+        ],
+        "promptSnippet": "让 AI 一次生成投票 / 大屏 / 后台三端脚手架；用连接池 + 请求合并把 P95 从 1095ms 压到 407ms；最后跑一遍 AI 安全审计清零告警。",
+        "liveUrl": "https://cowork.xiaohongshu.com/s/live-vote",
+        "skills": [
+          {
+            "name": "高并发性能调优",
+            "level": "突破"
+          },
+          {
+            "name": "FastAPI 全栈",
+            "level": "熟练"
+          },
+          {
+            "name": "Docker 容器化",
+            "level": "熟练"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ai-worldfootprint",
+      "domain": "ai-system",
+      "name": "World Footprint · 3D 足迹地球",
+      "subtitle": "三维地球足迹可视化微应用",
+      "tagline": "React + Three.js + FastAPI 沉浸式地球",
+      "color": "#7bafd4",
+      "position": [
+        -138,
+        -24,
+        -85
+      ],
+      "radius": 2.6,
+      "type": "ai-device",
+      "meta": {
+        "period": "2026.07",
+        "role": "独立设计与全栈开发",
+        "company": "个人作品 / Cowork 微应用",
+        "tech": [
+          "Three.js",
+          "React",
+          "FastAPI",
+          "ShaderMaterial"
+        ],
+        "impact": "上线小红书 Cowork 平台，支持 3D 轨迹点亮与个人足迹生成",
+        "quote": "把走过的每一座城市，点亮在发光的地球表面。",
+        "overview": "基于 Three.js 开发的 3D 地球交互应用，支持城市地理坐标映射、大气层光晕着色器渲染、航线贝塞尔曲线连接与足迹卡片分享。",
+        "highlights": [
+          "手写 GLSL 大气辉光着色器与微粒子光晕，呈现高品质深空质感",
+          "经纬度到三维球体坐标变换算法，实现城市光点精准锚定",
+          "FastAPI 后端管理用户足迹点历史，支持增删改查"
+        ],
+        "image": "covers/wf-1.png",
+        "promptSnippet": "把这份足迹数据交给 AI：生成 Three.js 地球渲染、大气光晕与城市光点交互，FastAPI 后端管理足迹记录，再用 Cowork CLI 一键部署上线。",
+        "liveUrl": "https://cowork.xiaohongshu.com/s/world-footprint",
+        "skills": [
+          {
+            "name": "Three.js 3D 渲染",
+            "level": "熟练"
+          },
+          {
+            "name": "GLSL 自定义着色器",
+            "level": "熟练"
+          },
+          {
+            "name": "空间交互设计",
+            "level": "精通"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ai-coffeechat",
+      "domain": "ai-system",
+      "name": "茶饮盲盒 · Coffee Chat 匹配",
+      "subtitle": "社交破冰与偏好匹配全栈应用",
+      "tagline": "React + FastAPI + PostgreSQL (alias: tea-blindbox)",
+      "color": "#c29b68",
+      "position": [
+        -124,
+        -14,
+        -105
+      ],
+      "radius": 2.4,
+      "type": "ai-device",
+      "meta": {
+        "period": "2026.08",
+        "role": "全栈架构与产品设计",
+        "company": "Cowork 创意应用",
+        "tech": [
+          "React",
+          "FastAPI",
+          "PostgreSQL",
+          "Matching Algorithm"
+        ],
+        "impact": "已部署 Cowork 全栈版（workId 135761），验证社交破冰场景",
+        "quote": "一杯茶的距离，遇见同频的伙伴。",
+        "overview": "以茶饮口味与兴趣标签为维度的社交盲盒匹配微应用，用户选择茶饮属性后由算法自动匹配同频聊天对象，支持即时状态同步与破冰卡片生成。",
+        "highlights": [
+          "设计基于多维向量标签的加权偏好匹配算法",
+          "PostgreSQL 持久化存储匹配记录与防重复机制",
+          "轻量化动画与流畅移动端体验设计"
+        ],
+        "promptSnippet": "设计一套茶饮偏好加权匹配算法，FastAPI 维护用户在线队列与状态机，匹配成功后下发一次性破冰会话密钥。",
+        "skills": [
+          {
+            "name": "匹配算法设计",
+            "level": "熟练"
+          },
+          {
+            "name": "状态机管理",
+            "level": "熟练"
+          },
+          {
+            "name": "移动端交互",
+            "level": "精通"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ai-studytour",
+      "domain": "ai-system",
+      "name": "游学中国 · AI 内容生产流水线",
+      "subtitle": "全球说 App 文旅内容工业化沉淀",
+      "tagline": "可复用 OpenClaw Skill · 8+ 主题任务规范",
+      "color": "#52796f",
+      "position": [
+        -105,
+        -30,
+        -95
+      ],
+      "radius": 2.5,
+      "type": "ai-device",
+      "meta": {
+        "period": "2026.07 - 2026.08",
+        "role": "工作流架构与内容规范设计",
+        "company": "全球说 (Global Speak)",
+        "tech": [
+          "Claude Code",
+          "Agent Skill",
+          "Python Automation",
+          "Data Pipeline"
+        ],
+        "impact": "将文旅内容生产耗时缩短 70%，输出 8+ 篇行业级互动任务设计规范",
+        "quote": "用 Agent 构建生产管线，让文化内容具备可复制的高水准。",
+        "overview": "针对全球说 App「游学中国」板块研发的端到端 AI 内容生产流水线，涵盖景点筛选（4A/5A 优先）、固定路线排版、互动任务闭环（现场动作 → 具体产出 → App 交互）并固化为标准化 Agent Skill。",
+        "highlights": [
+          "制定「现场动作 → 产出物 → App 交互」三元设计规范，杜绝泛泛打卡",
+          "沉淀完整的闽文化、潮州文化、社火文化游学三件套（表格+课程+文档）",
+          "自动化图像采集与 16:9 白边自适应补齐脚本，免去人工审核成本"
+        ],
+        "promptSnippet": "把这套「路线设计 → 课程方案 → 验收」的流程沉淀为可复用 skill：定义输入模板、生成检查清单与验收标准，下次同类任务直接调用。",
+        "skills": [
+          {
+            "name": "Agent Skill 架构",
+            "level": "精通"
+          },
+          {
+            "name": "Pipeline 自动化",
+            "level": "精通"
+          },
+          {
+            "name": "文化课程设计",
+            "level": "精通"
+          }
+        ]
+      }
+    },
+    {
+      "id": "station-manual",
+      "domain": "manual-station",
+      "name": "空间站 · 乘员手册 MK-2026",
+      "subtitle": "刘洛颖这台机器的使用说明书",
+      "tagline": "六维能力雷达 · 24h 示波器 · 舱内通讯记录",
+      "color": "#ffd76e",
+      "position": [
+        0,
+        70,
+        -150
+      ],
+      "radius": 5.5,
+      "type": "station",
+      "meta": {
+        "period": "2026 EDITION",
+        "role": "CREW MEMBER: INFJ-001",
+        "company": "宇宙飞船乘员档案",
+        "tech": [
+          "INFJ",
+          "水瓶座",
+          "六级 520",
+          "GPA 3.82",
+          "舞蹈能量"
+        ],
+        "impact": "100% 诚实体检报告 · 最佳协作指南",
+        "quote": "高能时全速航行，静音时深空漫游。",
+        "overview": "欢迎阅读刘洛颖（liuluoying）的乘员使用说明书。这里记录了她的六维能力参数、24 小时生物节律、高效沟通协议与常见 FAQ。",
+        "highlights": [
+          "六维雷达：AI 原生 94% / 业务运营 92% / 美学交互 90% / 逻辑结构 88% / 组织协同 89% / 隐藏维度「舞蹈能量」98%",
+          "24h 节律：清晨低能静音启动 → 下午高能灵感迸发 → 晚间极速沉浸交付 → 深夜 i 人充电闭关",
+          "沟通协议：直接说事 > 寒暄；清单 > 长段落；明确 DDL 与优先级",
+          "FAQ：静音模式不等于生气，只是 i 人能量槽需要自然回血；收到复杂任务会自动拆解为自动化执行流"
+        ],
+        "skills": [
+          {
+            "name": "INFJ 深度洞察",
+            "level": "精通"
+          },
+          {
+            "name": "水瓶座创造力",
+            "level": "突破"
+          },
+          {
+            "name": "跨界融合力",
+            "level": "精通"
+          }
+        ]
+      }
+    }
+  ]
+}

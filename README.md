@@ -1,5 +1,3 @@
-# liuluoying · Space Portfolio
+# liuluoying
 
-太空主题个人作品集（Vue 3 + Three.js）。
-
-公网地址：https://853624720-svg.github.io/liuluoying/
+Space-themed 3D portfolio universe. Public site: https://853624720-svg.github.io/liuluoying/

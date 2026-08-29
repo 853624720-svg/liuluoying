@@ -1,0 +1,182 @@
+{
+  "_说明": "这是简历内容数据文件。在 GitHub 网页上点铅笔图标即可编辑，改完 Commit 约 1-10 分钟生效。只改引号里的文字最安全；不要删引号、逗号、方括号。",
+  "experiences": [
+    {
+      "id": 1,
+      "company": "小红书",
+      "image": "exp/xhs.png",
+      "role": "文化与人才发展 intern",
+      "period": "2026.07 - 至今",
+      "color": "#d4af7a",
+      "keyword": "AI",
+      "description": "校招开营营期全流程运营 · 自研实时投票系统 · AI 自动化工作流 · 内部应用开发",
+      "details": [
+        "校招开营营期（480+ 人规模）全流程运营：独立 own 运营文案、开营问卷（沪京两地 10 份）、嘉宾礼物（26 人、¥300/人）、结营晚间活动及周边选品（¥20,000 预算）全链路，均落地执行",
+        "设计「24 人选 5 强」现场票选机制，独立开发三端实时投票系统（手机投票 / 大屏实时排名 / 管理后台），P95 延迟 1095ms 优化至 407ms（2.7×），活动日 300 人并发零故障",
+        "搭建 482 人学员信息库，实现候选人导入秒级自动匹配",
+        "科技新秀奖月度批次全流程（进度跟进 → 通关判定 → 通知触达 → 地址收集 → 邮局下单 → 单号回填），引入 AI Agent 自动化工作流，两批次零漏发",
+        "AI 结对开发上线 2 个内部应用（World Footprint 3D 足迹地球、太空主题互动页）；「游学中国」内容生产流程沉淀为可复用 AI skill",
+        "文化 IP 内容建设：游学中国路线与课程方案设计，8+ 文化主题互动任务设计规范"
+      ],
+      "tags": [
+        "Vue 3",
+        "Three.js",
+        "AI 工作流",
+        "活动运营"
+      ]
+    },
+    {
+      "id": 2,
+      "company": "北京环球度假区",
+      "image": "exp/universal.jpg",
+      "imgFit": "cover",
+      "role": "HRBP intern",
+      "period": "2025.09 - 2026.03",
+      "color": "#8ba3b8",
+      "keyword": "数据",
+      "description": "500+ 员工编制盘点与绩效数据全流程",
+      "details": [
+        "对接 5 个业务部门，负责 500+ 名员工编制盘点、绩效数据全流程",
+        "独立搭建标准化人力报表体系，报表制作效率提升约 40%",
+        "统筹员工满意度项目 Coffee Chat：5 期覆盖 200+ 人次，参与度 70%"
+      ],
+      "tags": [
+        "数据透视表",
+        "VLOOKUP",
+        "人力报表"
+      ]
+    },
+    {
+      "id": 3,
+      "company": "凤凰网",
+      "image": "exp/ifeng.png",
+      "role": "商业内容运营实习生",
+      "period": "2025.05 - 2025.08",
+      "color": "#c5d4e3",
+      "keyword": "内容",
+      "description": "S 级商业访谈节目《君品谈》第五季全流程传播运营",
+      "details": [
+        "独立负责 12 期节目站内传播，统筹焦点图 / 财经频道 / Push 多资源位，零延期交付",
+        "跨部门协同中枢：对接采编、视频、首页、商务 4 部门",
+        "沉淀跨部门协作 SOP，输出备选传播方案推动决策"
+      ],
+      "tags": [
+        "传播运营",
+        "跨部门协同",
+        "SOP"
+      ]
+    },
+    {
+      "id": 4,
+      "company": "少年得到",
+      "image": "exp/dedao.png",
+      "role": "人才与发展实习生",
+      "period": "2025.05 - 2025.08",
+      "color": "#a88bc3",
+      "keyword": "培训",
+      "description": "培训项目全流程支持 + 企业活动策划执行",
+      "details": [
+        "支持培训项目全流程：物料制作、数据整理、AI 辅助优化",
+        "独立 own 多个企业活动项目，从策划到落地、反馈形成完整回路"
+      ],
+      "tags": [
+        "活动策划",
+        "AI 辅助",
+        "项目闭环"
+      ]
+    },
+    {
+      "id": 5,
+      "company": "洋葱学园",
+      "image": "exp/onion.svg",
+      "role": "达人运营实习生",
+      "period": "2025.02 - 2025.04",
+      "color": "#7fb39a",
+      "keyword": "增长",
+      "description": "教育垂类达人建联与营销 Campaign 全流程执行",
+      "details": [
+        "抖音 / 小红书 / B 站建联 100+ 达人，搭建 200+ 优质达人资源库",
+        "全流程跟进投放：brief、脚本审核、上线管控，按时上线率 90%",
+        "数据提炼优质达人特征，反哺筛选策略优化"
+      ],
+      "tags": [
+        "达人运营",
+        "数据分析",
+        "Campaign"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "code": "CASE-01",
+      "title": "AI 备考 App",
+      "scene": "基于 Claude Code / Codex 独立开发学习题库 Web：知识点背诵、学习规划、错题复习、进度追踪",
+      "result": "从需求到上线，全程 AI 结对独立完成",
+      "tools": [
+        "Claude Code",
+        "Codex",
+        "Web App"
+      ],
+      "prompt": "你是一位资深全栈工程师。请基于以下功能清单（背诵 / 规划 / 错题 / 进度追踪）生成题库应用的数据模型与 localStorage 持久层，先输出文件结构，再逐文件实现，每步等我确认。"
+    },
+    {
+      "code": "CASE-02",
+      "title": "游学中国 · AI 内容工作流",
+      "scene": "全球说 app「游学中国」板块：旅游路线 + 课程设计，用 AI 搭建内容生产工作流",
+      "result": "沉淀为可复用 skill，持续迭代",
+      "tools": [
+        "Claude Code",
+        "可复用 Skill",
+        "内容设计"
+      ],
+      "prompt": "把这套「路线设计 → 课程方案 → 验收」的流程沉淀为可复用 skill：定义输入模板、生成检查清单与验收标准，下次同类任务直接调用。"
+    },
+    {
+      "code": "CASE-03",
+      "title": "World Footprint · 3D 足迹地球",
+      "scene": "3D 地球足迹地图：React + Three.js + FastAPI 全栈，把去过的城市点亮在地球上",
+      "result": "上线 Cowork，内网可直接访问",
+      "tools": [
+        "Three.js",
+        "React",
+        "FastAPI"
+      ],
+      "img": "covers/wf-1.png",
+      "fit": "cover",
+      "link": "https://cowork.xiaohongshu.com/s/world-footprint",
+      "prompt": "把这份足迹数据交给 AI：生成 Three.js 地球渲染、大气光晕与城市光点交互，FastAPI 后端管理足迹记录，再用 Cowork CLI 一键部署上线。"
+    },
+    {
+      "code": "CASE-04",
+      "title": "Delta Space · 现场投票系统",
+      "scene": "300 人现场 24 选 5 强：投票页 + 大屏实时排名 + 管理后台，React + FastAPI + PostgreSQL",
+      "result": "300 人并发 P95 407ms，活动零故障",
+      "tools": [
+        "React",
+        "FastAPI",
+        "PostgreSQL"
+      ],
+      "shots": [
+        {
+          "src": "shots/vote.jpg",
+          "label": "投票页 · 24 位候选人"
+        },
+        {
+          "src": "shots/board.jpg",
+          "label": "大屏 · 实时 TOP5"
+        }
+      ],
+      "prompt": "让 AI 一次生成投票 / 大屏 / 后台三端脚手架；用连接池 + 请求合并把 P95 从 1095ms 压到 407ms；最后跑一遍 AI 安全审计清零告警。"
+    }
+  ],
+  "contacts": [
+    {
+      "label": "Hi",
+      "value": "刘洛颖"
+    },
+    {
+      "label": "邮箱",
+      "value": "853624720@qq.com"
+    }
+  ]
+}
