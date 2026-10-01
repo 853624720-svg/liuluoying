@@ -412,7 +412,7 @@
       "meta": {
         "period": "2026.08",
         "role": "全栈开发 & 系统设计",
-        "company": "小红书 Delta Program 营期",
+        "company": "小红书 ",
         "tech": [
           "React",
           "FastAPI",
@@ -420,7 +420,7 @@
           "Docker",
           "AI Pair Programming"
         ],
-        "impact": "P95 延迟 1095ms 降至 407ms（提升 2.7x），活动日 300 人并发零故障",
+        "impact": "活动日 300 人并发零故障",
         "quote": "用 AI 编写生产级代码，用架构优化承载现场高压并发。",
         "overview": "为 Delta Program 现场营期定制的实时票选平台，覆盖手机端投票、大屏实时 TOP5 动态排名与管理后台，全面应对现场网络抖动与瞬间并发。",
         "highlights": [
@@ -474,14 +474,14 @@
       "meta": {
         "period": "2026.07",
         "role": "独立设计与全栈开发",
-        "company": "个人作品 / Cowork 微应用",
+        "company": "",
         "tech": [
           "Three.js",
           "React",
           "FastAPI",
           "ShaderMaterial"
         ],
-        "impact": "上线小红书 Cowork 平台，支持 3D 轨迹点亮与个人足迹生成",
+        "impact": "支持 3D 轨迹点亮与个人足迹生成",
         "quote": "把走过的每一座城市，点亮在发光的地球表面。",
         "overview": "基于 Three.js 开发的 3D 地球交互应用，支持城市地理坐标映射、大气层光晕着色器渲染、航线贝塞尔曲线连接与足迹卡片分享。",
         "highlights": [
@@ -525,14 +525,14 @@
       "meta": {
         "period": "2026.08",
         "role": "全栈架构与产品设计",
-        "company": "Cowork 创意应用",
+        "company": "",
         "tech": [
           "React",
           "FastAPI",
           "PostgreSQL",
           "Matching Algorithm"
         ],
-        "impact": "已部署 Cowork 全栈版（workId 135761），验证社交破冰场景",
+        "impact": "验证社交破冰场景",
         "quote": "一杯茶的距离，遇见同频的伙伴。",
         "overview": "以茶饮口味与兴趣标签为维度的社交盲盒匹配微应用，用户选择茶饮属性后由算法自动匹配同频聊天对象，支持即时状态同步与破冰卡片生成。",
         "highlights": [
