@@ -82,8 +82,8 @@
       "id": "planet-luoying",
       "domain": "her-planet",
       "name": "履历中枢 · 刘洛颖",
-      "subtitle": "刘洛颖 · INFJ · ♒ 水瓶座",
-      "tagline": "中传汉语言 27 届 · AI-Native 创意构建者",
+      "subtitle": "刘洛颖 · 中传汉语言 27 届 ",
+      "tagline": "世界不过是我的宇宙场",
       "color": "#7bafd4",
       "position": [
         0,
@@ -94,14 +94,11 @@
       "type": "hub",
       "meta": {
         "period": "2023.09 - 2027.07",
-        "role": "本科在读 / 文化与人才发展实习生",
-        "company": "中国传媒大学 & 书行科技",
+        "role": "本科在读",
+        "company": "中国传媒大学 ",
         "tech": [
-          "Three.js",
-          "Vue 3",
-          "FastAPI",
           "Claude Code",
-          "Agent Skills"
+          "Agent Skills，GPT，codex"
         ],
         "impact": "GPA 3.82/4 · 六级 520 · 独立构建多款生产级 Web 3D & AI 应用",
         "quote": "用技术的理性架构，承载人文与艺术的温度。",
@@ -139,14 +136,14 @@
     {
       "id": "exp-xhs",
       "domain": "experiences",
-      "name": "小红书 · RED Orbit",
+      "name": "小红书 ",
       "subtitle": "文化与人才发展实习生",
       "tagline": "Delta Program 核心运营 · 自研三端投票系统",
       "color": "#a64d5c",
       "position": [
-        18,
-        0,
-        0
+        17.98695885303455,
+        -0.12170072838679627,
+        -0.6850629308625045
       ],
       "radius": 2.6,
       "orbitRadius": 18,
@@ -164,7 +161,7 @@
           "Three.js",
           "AI Workflow"
         ],
-        "impact": "300 人并发票选 P95 407ms 零故障；482 人学员库秒级匹配；2 批次科技新秀奖零漏发",
+        "impact": "Delta Program",
         "quote": "深入业务一线，以 AI Native 的方式重塑运营与技术边界。",
         "overview": "在小红书文化与人才发展组承担技术校招营期全流程运营与内部生产力工具开发，深度融合大模型与业务流。",
         "highlights": [
@@ -197,14 +194,14 @@
     {
       "id": "exp-universal",
       "domain": "experiences",
-      "name": "北京环球度假区 · Universal Planet",
+      "name": "北京环球度假区 ",
       "subtitle": "HRBP 实习生",
       "tagline": "国际文旅顶流 · 组织赋能与员工体验",
       "color": "#c29b68",
       "position": [
-        26,
-        0,
-        0
+        25.709565963471736,
+        0.47163630561152287,
+        3.875334562317911
       ],
       "radius": 3.2,
       "orbitRadius": 26,
@@ -248,14 +245,14 @@
     {
       "id": "exp-dedao",
       "domain": "experiences",
-      "name": "少年得到 · Dedao Learning",
+      "name": "少年得到 ",
       "subtitle": "人才与组织发展实习生",
       "tagline": "知识付费领跑者 · 培训赋能与体系化沉淀",
       "color": "#52796f",
       "position": [
-        34,
-        0,
-        0
+        29.58248287622919,
+        1.3724123842415128,
+        16.75937668523525
       ],
       "radius": 2.5,
       "orbitRadius": 34,
@@ -299,14 +296,14 @@
     {
       "id": "exp-ifeng",
       "domain": "experiences",
-      "name": "凤凰网 · Ifeng Media",
-      "subtitle": "商业内容运营实习生",
+      "name": "凤凰网 ",
+      "subtitle": "商业项目运营实习生",
       "tagline": "主流深度媒体 · 《君品谈》高端栏目运营",
       "color": "#9e5344",
       "position": [
-        42,
-        0,
-        0
+        20.553034386370673,
+        1.3656344533043514,
+        36.62748663930771
       ],
       "radius": 2.9,
       "orbitRadius": 42,
@@ -350,14 +347,14 @@
     {
       "id": "exp-onion",
       "domain": "experiences",
-      "name": "洋葱学园 · Onion Academy",
+      "name": "洋葱学园 ",
       "subtitle": "达人与社群运营实习生",
-      "tagline": "K12 智能教育 · 创作者生态与社群裂变",
+      "tagline": "K12 智能教育 · 创作者生态·达人投放",
       "color": "#b5965b",
       "position": [
-        50,
-        0,
-        0
+        -10.462292484013494,
+        -0.6547641214733285,
+        48.893153262792886
       ],
       "radius": 3,
       "orbitRadius": 50,
@@ -366,7 +363,7 @@
       "meta": {
         "period": "2024.06 - 2024.10",
         "role": "达人与社群运营实习生",
-        "company": "洋葱学园 (yangcongxueyuan.com)",
+        "company": "洋葱学园",
         "image": "exp/onion.svg",
         "tech": [
           "达人运营",
@@ -563,7 +560,7 @@
     {
       "id": "ai-studytour",
       "domain": "ai-system",
-      "name": "游学中国 · AI 内容生产流水线",
+      "name": "游学中国 · workflow",
       "subtitle": "全球说 App 文旅内容工业化沉淀",
       "tagline": "可复用 OpenClaw Skill · 8+ 主题任务规范",
       "color": "#52796f",
@@ -577,7 +574,7 @@
       "meta": {
         "period": "2026.07 - 2026.08",
         "role": "工作流架构与内容规范设计",
-        "company": "全球说 (Global Speak)",
+        "company": "全球说",
         "tech": [
           "Claude Code",
           "Agent Skill",
@@ -613,8 +610,8 @@
       "id": "station-manual",
       "domain": "manual-station",
       "name": "空间站 · 乘员手册 MK-2026",
-      "subtitle": "刘洛颖这台机器的使用说明书",
-      "tagline": "六维能力雷达 · 24h 示波器 · 舱内通讯记录",
+      "subtitle": "刘洛颖的星球使用说明书",
+      "tagline": "六维能力雷达 · 24h 示波器 · 高能量大学生",
       "color": "#ffd76e",
       "position": [
         0,
@@ -631,14 +628,13 @@
           "INFJ",
           "水瓶座",
           "六级 520",
-          "GPA 3.82",
-          "舞蹈能量"
+          "GPA 3.82"
         ],
         "impact": "100% 诚实体检报告 · 最佳协作指南",
         "quote": "高能时全速航行，静音时深空漫游。",
         "overview": "欢迎阅读刘洛颖（liuluoying）的乘员使用说明书。这里记录了她的六维能力参数、24 小时生物节律、高效沟通协议与常见 FAQ。",
         "highlights": [
-          "六维雷达：AI 原生 94% / 业务运营 92% / 美学交互 90% / 逻辑结构 88% / 组织协同 89% / 隐藏维度「舞蹈能量」98%",
+          "六维雷达：AI 原生 94% / 业务运营 92% / 美学交互 90% / 逻辑结构 88% / 组织协同 89% / 隐藏维度「舞蹈能量」98%/大学生穷游达人（bushi）",
           "24h 节律：清晨低能静音启动 → 下午高能灵感迸发 → 晚间极速沉浸交付 → 深夜 i 人充电闭关",
           "沟通协议：直接说事 > 寒暄；清单 > 长段落；明确 DDL 与优先级",
           "FAQ：静音模式不等于生气，只是 i 人能量槽需要自然回血；收到复杂任务会自动拆解为自动化执行流"
